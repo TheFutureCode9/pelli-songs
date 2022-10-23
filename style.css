@@ -2,7 +2,10 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    background-color: cadetblue;
+    background-color: #5f9ea0;
+}
+h1{
+  font-family: 'Poppins', sans-serif
 }
  
  
@@ -41,7 +44,7 @@
     align-items: center;
     background-color: cadetblue; 
     border-radius: 1rem; 
-    box-shadow: 0 0.5rem 1rem #FFF;
+    /*box-shadow: 0 0.5rem 1rem #FFF;*/
     overflow: hidden;
     margin: 2rem;  
   }
@@ -52,6 +55,7 @@
 
     .container .music-container .box .music{
       width:75%;
+      align-items: center;
   }
   .container .music-container .box .music audio{
       width:100%;
