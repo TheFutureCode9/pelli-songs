@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: cadetblue;
+}
+ 
+ 
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  Html{
+    font-size: 62.5%;
+  }
+  
+  .container .heading {
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: verdana, geneva, tahoma, sans-serif;
+    text-shadow: 0 0.5rem 1rem gray;
+    color: #fff;
+  }
+
+  
+  .container .music-container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  
+  
+    
+  .container .music-container .box{
+    height:500px; 
+    width:1000px;
+    display: flex;
+    align-items: center;
+    background-color: cadetblue; 
+    border-radius: 1rem; 
+    box-shadow: 0 0.5rem 1rem #FFF;
+    overflow: hidden;
+    margin: 2rem;  
+  }
+  .container .music-container .box .image img{
+    height:500px; 
+    width:1000px; 
+  }
+
+    .container .music-container .box .music{
+      width:75%;
+  }
+  .container .music-container .box .music audio{
+      width:100%;
+      outline: blanchedalmond;
+      align-items: center;
+      
+    }
+  .container .music-container .box .music audio::-webkit-controls-eclosure{
+     background: nome;
+    }  
+  
+    @media (max-width:600px){
+        
+    .container .music-container .box{
+      height:27rem;
+      width:90%;
+      flex-flow: column;
+    }
+      
+  }  
+    .container .music-container .box .image{
+       height:80%;
+      width:100%;
+    }
+   .container .music-container .box .music{
+       height:20%;
+      width:100%;
+    }  
+
+h4{
+    font-size: large;
+}
